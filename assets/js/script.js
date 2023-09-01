@@ -13,7 +13,6 @@ const limit = 100 // numero delle celle
 
 //richiamo il pulsante
 const clickButton = document.querySelector('.spawn');
-clickButton.innertext = "Spawn your field!";
 
 //addeventlistener per farlo funzionare
 
