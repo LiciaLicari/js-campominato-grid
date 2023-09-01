@@ -8,7 +8,19 @@ body {
     background-color: rgb(35, 35, 43);
 }
 
-.container {
+h1 {
+    color: rgb(46, 181, 249);
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap {
     max-width: 600px;
     margin: 4rem auto;
 }
@@ -16,10 +28,11 @@ body {
 .field {
     display: flex;
     flex-wrap: wrap;
+    gap: 0.3rem;
 }
 
 .cell {
-    width: calc(100% / 10);
+    width: calc(100% / 11);
     aspect-ratio: 1 / 1;
     border: 1px dashed palegoldenrod;
     color: palegoldenrod;
@@ -27,4 +40,8 @@ body {
     align-items: center;
     justify-content: center;
 
+}
+
+.bg-sky {
+    background-color: rgb(46, 181, 249);
 }
