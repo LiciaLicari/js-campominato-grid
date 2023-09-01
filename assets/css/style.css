@@ -14,12 +14,9 @@ h1 {
     justify-content: center;
 }
 
-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.d-none{
+    display: none;
 }
-
 .wrap {
     max-width: 600px;
     margin: 4rem auto;
